@@ -1,12 +1,12 @@
-# 🔍 PR Summarizer — TCC
+# PR Summarizer — TCC
 
 Pipeline automatizado para coleta de Pull Requests do GitHub e geração de resumos estruturados utilizando Modelos de Linguagem de Grande Escala (LLMs).
 
-Este projeto faz parte de um Trabalho de Conclusão de Curso (TCC) do curso de Ciência da Computação, cujo objetivo é avaliar se resumos de PRs gerados automaticamente por IA são percebidos por desenvolvedores como claros, úteis e precisos o suficiente para apoiar o processo de revisão de código.
+Este projeto faz parte de um Trabalho de Conclusão de Curso (TCC) do curso de Engenharia da Computação, cujo objetivo é avaliar se resumos de PRs gerados automaticamente por IA são percebidos por desenvolvedores como claros, úteis e precisos o suficiente para apoiar o processo de revisão de código.
 
 ---
 
-## 📋 Sobre o projeto
+## Sobre o projeto
 
 O desenvolvimento de software moderno depende fortemente de Pull Requests como mecanismo de revisão e integração de código. No entanto, PRs frequentemente apresentam descrições incompletas ou excessivamente técnicas, dificultando a compreensão rápida das mudanças propostas.
 
@@ -33,7 +33,7 @@ Este projeto propõe uma solução em três fases:
 
 ---
 
-## 🗂️ Estrutura do projeto
+## Estrutura do projeto
 
 ```
 pr-summarizer/
@@ -50,7 +50,7 @@ pr-summarizer/
 
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 - Python 3.10 ou superior
 - Conta no [GitHub](https://github.com) com token de acesso pessoal
@@ -58,7 +58,7 @@ pr-summarizer/
 
 ---
 
-## 🚀 Como usar
+## Como usar
 
 ### 1. Clone o repositório
 
@@ -134,9 +134,9 @@ python llm_summarizer.py --input prs_data --delay 1.0
 
 ---
 
-## 📊 Sobre o formulário de avaliação
+## Sobre o formulário de avaliação
 
-Como parte da Fase 3 deste trabalho, foi conduzido um experimento com estudantes e estagiários de Ciência da Computação para avaliar a qualidade dos resumos gerados.
+Como parte da Fase 3 deste trabalho, foi conduzido um experimento com estudantes e estagiários de Engenharia da Computação para avaliar a qualidade dos resumos gerados.
 
 Os participantes analisaram resumos de PRs reais do repositório [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) e responderam questões em escala Likert (1 a 5) sobre quatro critérios:
 
@@ -149,7 +149,7 @@ Os resultados do experimento são apresentados e discutidos no TCC.
 
 ---
 
-## 📦 Exemplo de saída
+## Exemplo de saída
 
 Após executar os dois scripts, cada PR terá um arquivo JSON com a seguinte estrutura:
 
@@ -179,7 +179,7 @@ Após executar os dois scripts, cada PR terá um arquivo JSON com a seguinte est
 
 ---
 
-## 🛠️ Dependências
+## Dependências
 
 ```
 requests
@@ -189,6 +189,6 @@ anthropic
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos como parte de um TCC.
