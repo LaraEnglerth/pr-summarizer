@@ -1,0 +1,4 @@
+.env
+prs_data/
+__pycache__/
+*.pyc
