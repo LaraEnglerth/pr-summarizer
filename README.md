@@ -1,4 +1,4 @@
-# PR Summarizer — TCC
+# 🤖 PR Summarizer — TCC
 
 Pipeline automatizado para coleta de Pull Requests do GitHub e geração de resumos estruturados utilizando Modelos de Linguagem de Grande Escala (LLMs).
 
